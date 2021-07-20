@@ -5,6 +5,7 @@ set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
+set clipboard=unnamed
 
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -21,3 +22,4 @@ nnoremap <C-s> :w<CR>
 nnoremap <leader><CR> :so ~/.config/nvim/init.vim<CR>
 nnoremap <C-p> :GFiles<CR>
 nnoremap <leader>pf :Files<CR>
+nnoremap <leader>c "+yy
