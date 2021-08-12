@@ -1,0 +1,10 @@
+.titlebar {
+    background: #9ece6a;
+    color:white; 
+}
+
+
+.titlebar:backdrop  {
+    background: #777777;
+    color:white;
+} 
