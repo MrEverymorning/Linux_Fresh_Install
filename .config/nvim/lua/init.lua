@@ -28,6 +28,7 @@ paq {'Raiamondi/delimitMate'}
 paq {'tpope/vim-surround'}
 paq {'svermeulen/vim-easyclip'}
 paq {'justinmk/vim-sneak'}
+paq {'wakatime/vim-wakatime'}
 g['deoplete#enable_at_startup'] = 1  -- enable deoplete at startup
 
 -------------------- OPTIONS -------------------------------
